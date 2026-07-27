@@ -1,5 +1,8 @@
 # Online_food_delivery_2
 
+
+About the Tags Used
+
 | Tag                    | Purpose                                                                                                                |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | `<!DOCTYPE html>`      | Defines the document as an HTML5 document.                                                                             |
@@ -29,3 +32,26 @@
 | `<textarea>`           | Provides a multi-line text input for the address.                                                                      |
 | `<progress>`           | Displays the order progress.                                                                                           |
 | `<footer>`             | Creates the bottom section of the webpage.                                                                             |
+
+
+CSS Concepts Used
+
+The program uses Internal CSS inside the <style> tag.
+
+Some CSS properties used are:
+
+background – Adds background colors.
+color – Changes text color.
+font-family – Sets the font style.
+padding – Adds space inside elements.
+margin – Adds space around elements.
+width – Sets the width of elements.
+border – Adds borders.
+border-radius – Creates rounded corners.
+text-align – Aligns text.
+display:flex – Arranges elements side by side.
+gap – Adds space between flex items.
+box-shadow – Adds a shadow effect to food cards.
+:hover – Changes the appearance when the mouse moves over an element.
+nth-child() – Applies different background colors to individual cards.
+3. Procedure
