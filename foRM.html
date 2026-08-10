@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Innovation Meet 2026</title>
+
+<style>
+body{
+    font-family:Arial;
+    background:#b9d9ee;
+    margin:0;
+    padding:20px;
+}
+.box{
+    width:75%;
+    margin:auto;
+    padding:20px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 0 10px #777;
+}
+h1,h2{color:#15558a}
+h1{text-align:center}
+.center{text-align:center}
+
+fieldset{
+    border:2px solid #15558a;
+    border-radius:8px;
+    margin:15px 0;
+    padding:15px;
+}
+legend{color:#15558a;font-weight:bold}
+label{font-weight:bold}
+
+input,select,textarea{
+    padding:7px;
+    margin:5px;
+    border:1px solid #888;
+    border-radius:5px;
+}
+
+input:focus,select:focus,textarea:focus{
+    border:2px solid #15558a;
+    outline:0;
+}
+
+input[type=submit],input[type=reset]{
+    color:white;
+    padding:10px 25px;
+    border:0;
+}
+input[type=submit]{background:#15558a}
+input[type=reset]{background:#666}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background:#15558a;
+    color:white;
+}
+th,td{
+    border:1px solid #aaa;
+    padding:8px;
+    text-align:center;
+}
+
+.info{
+    background:#edf6fc;
+    padding:12px;
+    border-left:5px solid #15558a;
+}
+
+.event-img{
+    width:70%;
+    max-height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid #15558a;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Student Innovation Meet 2026</h1>
+
+<div class="center">
+<img class="event-img" src="events.jpeg" alt="Student Innovation Event">
+</div>
+
+<p class="center">
+Register and showcase your talent, creativity and technical skills!
+</p>
+
+<!-- College Website -->
+
+<h2>College Website</h2>
+
+<div class="center">
+    <a href="https://www.karunya.edu/" target="_blank">
+        Visit College Website
+    </a>
+</div>
+
+<!-- Registration Form -->
+
+<form action="#" method="get">
+
+<fieldset>
+<legend>Student Details</legend>
+
+<label>Register Number:</label>
+<input type="text" name="regno" maxlength="9"
+pattern="[UuPp](2[0-6])(CS|EE|EC|CI|ME)[1-9][0-9]{3}"
+title="Example: U24CS6006" required><br>
+
+<label>Name:</label>
+<input type="text" name="name" maxlength="20"
+pattern="[A-Za-z ]{2,20}"
+title="Enter letters and spaces only" required><br>
+
+<label>Email:</label>
+<input type="email" name="email" maxlength="15"
+pattern="[^@ ]+@[^@ ]+\.[^@ ]+"
+title="Enter a valid email containing @" required><br>
+
+<label>Phone:</label>
+<input type="tel" name="phone" maxlength="10"
+pattern="[0-9]{10}" title="Enter exactly 10 digits" required><br>
+
+<label>Department:</label>
+<select name="department" required>
+<option value="">Select Department</option>
+<option>CSE</option>
+<option>ECE</option>
+<option>EEE</option>
+<option>MECH</option>
+<option>CIVIL</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Event Details</legend>
+
+<label>Choose Event:</label>
+<select name="event" required>
+<option value="">Select Event</option>
+<option>Hackathon</option>
+<option>Quiz Competition</option>
+<option>Web Design</option>
+<option>Paper Presentation</option>
+<option>Code Debugging</option>
+</select><br>
+
+<label>Participation:</label>
+<input type="radio" name="type" value="Individual" required>Individual
+<input type="radio" name="type" value="Team">Team<br>
+
+<label>Team Size:</label>
+<input type="number" name="team" min="0" max="4" value="0"><br>
+
+<label>Event Date:</label>
+<input type="date" name="date"
+min="2026-08-10" max="2026-12-30" required><br>
+
+<label>Experience:</label><br>
+<textarea name="experience" rows="3" cols="40"
+maxlength="50"
+placeholder="Maximum 50 characters"></textarea>
+
+</fieldset>
+
+<div class="center">
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</div>
+
+</form>
+
+<!-- Event Schedule -->
+
+<h2>Event Schedule</h2>
+
+<table>
+<tr>
+<th>Event</th><th>Venue</th><th>Date</th><th>Time</th>
+</tr>
+<tr><td>Hackathon</td><td>Computer Lab 1</td><td>20 Aug</td><td>10:00 AM</td></tr>
+<tr><td>Quiz Competition</td><td>Seminar Hall</td><td>20 Aug</td><td>2:00 PM</td></tr>
+<tr><td>Web Design</td><td>Computer Lab 2</td><td>21 Aug</td><td>11:00 AM</td></tr>
+<tr><td>Paper Presentation</td><td>Block A</td><td>21 Aug</td><td>2:00 PM</td></tr>
+<tr><td>Code Debugging</td><td>Computer Lab 1</td><td>22 Aug</td><td>10:00 AM</td></tr>
+</table>
+
+<!-- Event Information -->
+
+<h2>Event Information</h2>
+
+<div class="info">
+<p>Students can participate in technical events and demonstrate their creativity and skills.</p>
+<p>Participants can register individually or as a team. Certificates and prizes will be provided.</p>
+<p>Participants should report 15 minutes before the event.</p>
+</div>
+
+<!-- Progress -->
+
+<h2>Registration Progress</h2>
+
+<div class="center">
+<progress value="70" max="100"></progress> 70%
+</div>
+
+<!-- Event Video -->
+
+<h2>Event Video</h2>
+
+<div class="center">
+<a href="https://www.youtube.com/watch?v=5BVDYqfhdhA"
+target="_blank">
+Watch Event Video on YouTube
+</a>
+</div>
+
+</div>
+
+</body>
+</html>
